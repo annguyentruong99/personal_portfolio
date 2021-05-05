@@ -29,6 +29,9 @@ const FormSubmission: CollectionConfig = {
       },
     },
   ],
+  admin: {
+    useAsTitle: 'from',
+  },
 };
 
 export default FormSubmission;

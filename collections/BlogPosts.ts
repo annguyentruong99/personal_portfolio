@@ -27,7 +27,6 @@ const BlogPost: CollectionConfig = {
       name: 'publishedOn',
       label: 'Published On',
       type: 'date',
-      defaultValue: Date.now(),
       admin: {
         readOnly: true,
       },
@@ -45,6 +44,9 @@ const BlogPost: CollectionConfig = {
     slug,
     meta,
   ],
+  admin: {
+    useAsTitle: 'blogTitle',
+  },
 };
 
 export default BlogPost;

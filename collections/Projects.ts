@@ -26,6 +26,9 @@ const Project: CollectionConfig = {
     slug,
     meta,
   ],
+  admin: {
+    useAsTitle: 'projectName',
+  },
 };
 
 export default Project;

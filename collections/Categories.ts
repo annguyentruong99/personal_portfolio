@@ -12,6 +12,9 @@ const Category: CollectionConfig = {
     },
     slug,
   ],
+  admin: {
+    useAsTitle: 'title',
+  },
 };
 
 export default Category;

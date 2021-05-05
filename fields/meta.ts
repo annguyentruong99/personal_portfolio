@@ -2,7 +2,7 @@ import { Field } from 'payload/types';
 
 const meta: Field = {
   name: 'meta',
-  label: 'Page Meta',
+  label: 'Meta',
   type: 'group',
   fields: [
     {
